@@ -1,7 +1,7 @@
 # Docker file for a slim Ubuntu-based Python3 image
 
 FROM ubuntu:latest
-MAINTAINER fnndsc "dev@babymri.org"
+MAINTAINER sameershukur "sameer.shukur.m@gmail.com"
 
 RUN apt-get update \
   && apt-get install -y python3-pip python3-dev \
